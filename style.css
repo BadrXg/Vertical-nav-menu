@@ -1,0 +1,33 @@
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100%;
+    background-color: rgb(200, 127, 218);
+    overflow-x: hidden;
+    transition: width 1s ease-in-out;
+    text-align: center;
+}
+
+.menu:hover {
+    width: 200px; 
+}
+
+.menu-item {
+    padding-left:0px; 
+    transition : background-color .3s; 
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100px;
+    transition: width 1s ease-in-out;
+}
+
+.menu:hover .menu-item, .menu-item:hover {
+    width: auto;
+}
+
+.menu-item:hover { 
+    background-color : rgb(167, 60, 130)
+}
